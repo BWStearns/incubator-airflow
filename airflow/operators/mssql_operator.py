@@ -1,6 +1,6 @@
 import logging
 
-from airflow.hooks import MsSqlHook
+from airflow.hooks.mssql_hook import MsSqlHook
 from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
 
