@@ -10,7 +10,7 @@ class MsSqlHook(DbApiHook):
 
     conn_name_attr = 'mssql_conn_id'
     default_conn_name = 'mssql_default'
-    supports_autocommit = True
+    supports_autocommit = False
 
     def get_conn(self):
         """
